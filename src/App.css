@@ -2,7 +2,9 @@ body {
   background-color: aliceblue;
 
 }
+
 .NavSection {
+  width: 100%;
   border: 1px solid black;
   display: flex;
   justify-content: space-between;
@@ -110,4 +112,54 @@ body {
 .link {
   text-decoration: none;
   color: white;
+}
+
+@media only screen and (max-width: 480px) {
+    body{
+      height: 100%;
+      width: 100%;
+  }
+  .NavSection {
+    background-color: red;
+    overflow-x: hidden;
+    width: 100%;
+  }
+  .navbar-section {
+    max-width: 100%;
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000; /* Ensure it stays above other elements */
+
+    
+  }
+  .search input {
+    height: 20%;
+    width: 20%;
+    border-radius: 10px;
+  }
+  .pageSection {
+    display: grid;
+    grid-template-columns: repeat(2,300px);
+    gap: 30px;
+  
+  }
+  .subMenu {
+    display: none;
+  }
+  .products {
+    max-width: fit-content;
+  }
+  .proSection {
+    gap: 20%;
+  }
+  img {
+    max-width: 100%;
+    height: auto;
+}
+.imageBox {
+      width: 100%;
+}
+
 }

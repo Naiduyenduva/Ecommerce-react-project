@@ -8,6 +8,7 @@ const Cartpage = () => {
     <div className='cart'>
         <h1> Hello , This is cart page</h1>
     </div>
+       <h2>hello woe</h2>
     </>
   )
 }

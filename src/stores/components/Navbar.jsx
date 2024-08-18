@@ -18,7 +18,8 @@ import { TbAirConditioningDisabled } from "react-icons/tb";
 
 const Navbar = () => {
   return (
-    <>
+    <div className='navbar-section'>
+
     <div className='NavSection'>
         <div className="title">
             <Link to='/' className='link'>
@@ -76,7 +77,7 @@ const Navbar = () => {
         </Link>
         </ul>
     </div>
-</>
+    </div>
   )
 }
 

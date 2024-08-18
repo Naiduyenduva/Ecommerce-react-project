@@ -14,7 +14,7 @@ import Fridge from './Fridge'
 
 const Products = () => {
   return (
-    <div>
+    <div className='products'>
       <Mobiles />
       <Computers />
       <Men />
